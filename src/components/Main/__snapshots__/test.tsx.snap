@@ -14,11 +14,27 @@ exports[`<Main /> should render the reading 1`] = `
   justify-content: center;
 }
 
+.c1 {
+  font-size: 2.5rem;
+}
+
+.c2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 <main
   class="c0"
 >
-  <h1>
+  <h1
+    class="c1"
+  >
     Next.js Boilerplate
   </h1>
+  <h2
+    class="c2"
+  >
+    TS, React, Next.js, Styled Components, Storybook, Jest, Eslint, Prettier & Husky
+  </h2>
 </main>
 `;

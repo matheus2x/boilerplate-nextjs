@@ -1,8 +1,12 @@
 import * as S from './styles';
 
-const Main = () => (
+const Main = ({
+  title = 'Next.js Boilerplate',
+  description = 'TS, React, Next.js, Styled Components, Storybook, Jest, Eslint, Prettier & Husky',
+}) => (
   <S.Wrapper>
-    <h1>Next.js Boilerplate</h1>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
   </S.Wrapper>
 );
 
