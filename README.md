@@ -38,15 +38,11 @@ This is my personal Next.js boilerplate for general use.
   - A Distributed **Version-Control-System** -> [Git](https://git-scm.com/ 'Git')
   - Some **Node Package Manager** Like -> [NPM](https://www.npmjs.com/) **or** [Yarn](https://yarnpkg.com/)
 
-1. Clone this repo with:
+- Run:
 
 ```sh
-  $ git clone https://github.com/matheus2x/boilerplate-nextjs.git
+  $ npx create-next-app --example https://github.com/matheus2x/boilerplate-nextjs
 ```
-
-2. Move yourself to the appropriate directory: `$ cd boilerplate-nextjs`
-3. Run `$ npm run install` or `$ yarn` to install dependencies
-4. Code :)
 
 <br>
 <a id="useful-urls"></a>
