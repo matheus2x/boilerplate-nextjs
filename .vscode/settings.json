@@ -3,5 +3,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "material-icon-theme.files.associations": {
     "stories.tsx": "Storybook"
+  },
+  "[handlebars]": {
+    "editor.formatOnSave": false
   }
 }
