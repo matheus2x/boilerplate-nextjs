@@ -1,4 +1,5 @@
 import { PropsWithChildren } from 'react';
+
 import GlobalStyles from '@/styles/global';
 
 function Providers({ children }: PropsWithChildren) {

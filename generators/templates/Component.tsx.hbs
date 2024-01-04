@@ -1,6 +1,9 @@
 import * as S from './styles';
+import * as P from './protocols';
 
-const {{pascalCase name}} = ({ title = '{{pascalCase name}}' }) => (
+const {{pascalCase name}} = ({
+  title = '{{pascalCase name}}',
+}: P.{{pascalCase name}}) => (
   <S.Wrapper>
     <h1>{title}</h1>
   </S.Wrapper>

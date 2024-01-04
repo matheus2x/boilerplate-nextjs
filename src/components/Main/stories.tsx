@@ -1,14 +1,16 @@
 import { Meta, StoryObj } from '@storybook/react';
+
 import Main from '.';
 
-export default {
+const meta: Meta<typeof Main> = {
   title: 'components/Main',
   component: Main,
   parameters: {
-    layout: 'fullscreen',
+    latouy: 'fullscreen',
   },
-} as Meta;
+};
 
+export default meta;
 export const Default: StoryObj = {};
 
 export const Alternativo: StoryObj = {

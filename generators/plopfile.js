@@ -30,6 +30,16 @@ module.exports = (plop) => {
         path: '../src/components/{{pascalCase name}}/test.tsx',
         templateFile: 'templates/test.tsx.hbs',
       },
+      {
+        type: 'add',
+        path: '../src/components/{{pascalCase name}}/protocols/index.ts',
+        templateFile: 'templates/protocols/index.ts.hbs',
+      },
+      {
+        type: 'add',
+        path: '../src/components/{{pascalCase name}}/protocols/{{pascalCase name}}.ts',
+        templateFile: 'templates/protocols/Component.ts.hbs',
+      },
     ], // array of actions
   });
 };
